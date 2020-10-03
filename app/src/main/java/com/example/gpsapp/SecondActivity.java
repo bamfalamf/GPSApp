@@ -12,8 +12,8 @@ public class SecondActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-//Find your views
-       button2 = (Button) findViewById(R.id.button);
+        //Find your views
+        button2 = (Button) findViewById(R.id.button2);
 
         //Assign a listener to your button
         button2.setOnClickListener(new View.OnClickListener() {
@@ -24,4 +24,4 @@ public class SecondActivity extends Activity {
                 startActivity(intent);
             }
         });
-}}
+    }}
