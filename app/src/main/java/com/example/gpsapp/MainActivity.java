@@ -14,7 +14,7 @@ import androidx.navigation.ui.NavigationUI;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button;
+    private Button button1;
     @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
@@ -30,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
             NavigationUI.setupWithNavController(navView, navController);
 
     //Find your views
-    button = (Button) findViewById(R.id.button);
+    button1 = (Button) findViewById(R.id.button);
 
     //Assign a listener to your button
-        button.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v){
             //Start your second activity

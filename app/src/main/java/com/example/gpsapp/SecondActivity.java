@@ -13,7 +13,7 @@ public class SecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 //Find your views
-       button2 = (Button) findViewById(R.id.button);
+       button2 = (Button) findViewById(R.id.button2);
 
         //Assign a listener to your button
         button2.setOnClickListener(new View.OnClickListener() {
